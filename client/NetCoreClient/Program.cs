@@ -6,7 +6,7 @@ List<ISensorInterface> sensors = new();
 sensors.Add(new VirtualSpeedSensor());
 
 // define protocol
-ProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
+IProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
 
 // send data to server
 while (true)
