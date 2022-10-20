@@ -462,11 +462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\NetCoreClient.csproj",
       "projectName": "NetCoreClient",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\NetCoreClient.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
