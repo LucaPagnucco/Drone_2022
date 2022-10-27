@@ -8,8 +8,8 @@ sensors.Add(new VirtualSpeedSensor());
 sensors.Add(new VirtualPositionSensor());
 
 // define protocol
-// IProtocolInterface protocol = new Http("http://localhost:8011/drones/1");
-IProtocolInterface protocol = new Http("http://192.168.101.39:8011/drones/1");
+// IProtocolInterface protocol = new Http("http://localhost:8011/drones/1/status");
+IProtocolInterface protocol = new Http("http://192.168.101.39:8011/drones/1/status");
 
 // send data to server
 while (true)
