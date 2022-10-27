@@ -463,11 +463,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "projectName": "NetCoreClient",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\NetCoreClient\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
       "projectName": "NetCoreClient",
       "projectPath": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\obj\\",
+>>>>>>> a32ab28adce5ff5e3d23fdc97912181ea80c0bf4
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

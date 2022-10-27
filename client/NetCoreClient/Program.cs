@@ -1,9 +1,11 @@
-﻿using NetCoreClient.Sensors;
+﻿using System;
+using NetCoreClient.Sensors;
 using NetCoreClient.Protocols;
 
 // define sensors
 List<ISensorInterface> sensors = new();
 sensors.Add(new VirtualSpeedSensor());
+sensors.Add(new VirtualPositionSensor());
 
 // define protocol
 // IProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
