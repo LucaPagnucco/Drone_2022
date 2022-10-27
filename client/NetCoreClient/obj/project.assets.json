@@ -529,7 +529,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> c519e341f4e28b4889826dae3792b92fe0e7987f
     }
   ]
 }
