@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
         "projectName": "NetCoreClient",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\iot-protocols\\client\\NetCoreClient\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
