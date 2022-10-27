@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "26uhq9Scz/239nI+bfjvAGT8mHAJRN+Q5E1NW9s0DFtCEV7saRr77sXNjj7YEbv2wzjl1HDhXIPHPyWMdqmHnA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\NetCoreClient.csproj",
-=======
   "dgSpecHash": "f2Q1FNhPNYf23ki3Ur//1lwqAfpbn8Ij7vr2yqmTwAO6F1xYc6QxXeMr6jLhelizwu3nU+rQDV6srk4PAMAIKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
->>>>>>> a32ab28adce5ff5e3d23fdc97912181ea80c0bf4
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -22,5 +16,12 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
