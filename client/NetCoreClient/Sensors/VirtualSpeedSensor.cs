@@ -1,25 +1,27 @@
-﻿using NetCoreClient.ValueObjects;
-using System.Text.Json;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Globalization;
 
 namespace NetCoreClient.Sensors
 {
     class VirtualSpeedSensor : ISpeedSensorInterface, ISensorInterface
     {
-        private readonly Random Random;
-
-        public VirtualSpeedSensor()
-        {
-            Random = new Random();
-        }
-
-        public int Speed()
-        {
-            return new Speed(Random.Next(100)).Value;
-        }
-
         public string ToJson()
         {
-            return JsonSerializer.Serialize(new Speed(Random.Next(100)));
+            return "{\"speed\": " + GetSpeed() + "}";
+        }
+
+        public int GetSpeed()
+        {
+            var random = new Random();
+            return random.Next(100);
+        }
+
+        public string GetSlug()
+        {
+            return "speed";
         }
     }
 }

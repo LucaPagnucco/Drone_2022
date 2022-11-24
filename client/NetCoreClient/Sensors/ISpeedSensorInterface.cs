@@ -1,7 +1,12 @@
-﻿namespace NetCoreClient.Sensors
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace NetCoreClient.Sensors
 {
     interface ISpeedSensorInterface
     {
-        int Speed();
+        int GetSpeed();
     }
 }

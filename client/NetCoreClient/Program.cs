@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NetCoreClient.Sensors;
 using NetCoreClient.Protocols;
 
@@ -8,8 +9,7 @@ sensors.Add(new VirtualSpeedSensor());
 sensors.Add(new VirtualPositionSensor());
 
 // define protocol
-// IProtocolInterface protocol = new Http("http://localhost:8011/drones/1/status");
-IProtocolInterface protocol = new Http("http://192.168.101.39:8011/drones/1/status");
+IProtocolInterface protocol = new Mqtt("127.0.0.1");
 
 // send data to server
 while (true)
@@ -22,7 +22,7 @@ while (true)
         var sensorValue = sensor.ToJson();
 
         //stessa cosa per i protocolli, lui qui non sa che protocollo sta usando, solo che ha un metodo Send che invia dei dati
-        protocol.Send(sensorValue);
+        protocol.Send(sensorValue, sensor.GetSlug());
 
         Console.WriteLine("Data sent: " + sensorValue);
 

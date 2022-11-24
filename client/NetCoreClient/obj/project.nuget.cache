@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "26uhq9Scz/239nI+bfjvAGT8mHAJRN+Q5E1NW9s0DFtCEV7saRr77sXNjj7YEbv2wzjl1HDhXIPHPyWMdqmHnA==",
+  "dgSpecHash": "g64JVdU4HjK/FWQzjfNW8DEMJHxC5kSxa/2KiEdqHCNPlKCRvyUe1Dnx7QoeLv8OLkWjmst6uFWSBHQTJ0awAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\NetCoreClient.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -12,16 +12,22 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.1.0\\mqttnet.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\options\\0.31415.9\\options.0.31415.9.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "Undefined",
+      "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Package 'Options 0.31415.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Options",
+      "targetGraphs": [
+        "net6.0"
+      ]
     }
   ]
 }

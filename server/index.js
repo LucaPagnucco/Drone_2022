@@ -44,6 +44,6 @@ server.post('/drones/:id/status', function(req, res, next) {
     return next();
 });
 
-server.listen(8011, function() {
+server.listen(1883, function() {
     console.log('%s listening at %s', server.name, server.url);
 });

@@ -97,3 +97,30 @@ C:\Users\Administrator\Desktop\Drone nostro\Drone_2022\client\netcoreclient\obj\
 C:\Users\Administrator\Desktop\Drone nostro\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Drone nostro\Drone_2022\client\netcoreclient\obj\Debug\net6.0\ref\NetCoreClient.dll
 >>>>>>> a32ab28adce5ff5e3d23fdc97912181ea80c0bf4
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\refint\NetCoreClient.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.pdb
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\NetCoreClient.exe
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\NetCoreClient.deps.json
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\NetCoreClient.runtimeconfig.json
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\NetCoreClient.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\NetCoreClient.pdb
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\FSharp.Core.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Options.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.csproj.CopyComplete
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\ref\NetCoreClient.dll

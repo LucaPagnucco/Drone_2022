@@ -9,10 +9,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
@@ -21,10 +25,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
@@ -37,10 +45,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Json/6.0.0": {
@@ -53,10 +65,14 @@
           "System.Text.Json": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
@@ -65,10 +81,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -82,10 +102,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -94,10 +118,14 @@
       "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -109,22 +137,62 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "MQTTnet/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MQTTnet.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/MQTTnet.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
+      "Options/0.31415.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Options.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Options.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -136,10 +204,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -158,10 +230,14 @@
           "System.Text.Encodings.Web": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Json.dll": {}
+          "lib/net6.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Json.dll": {}
+          "lib/net6.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -342,6 +418,57 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MQTTnet/3.1.0": {
+      "sha512": "DXrYh/QTOKrKmfEnxATJ1Qc0uw3FwU375+2Z2tlKmiNV6Y1zpEwK9zfjKZriQynrZImadIqczRV5Fuw8GO8+Gg==",
+      "type": "package",
+      "path": "mqttnet/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/Logo_128x128.png",
+        "lib/net452/MQTTnet.dll",
+        "lib/net461/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.deps.json",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.deps.json",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.deps.json",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.deps.json",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.deps.json",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/uap10.0/MQTTnet.dll",
+        "lib/uap10.0/MQTTnet.pri",
+        "mqttnet.3.1.0.nupkg.sha512",
+        "mqttnet.nuspec"
+      ]
+    },
+    "Options/0.31415.9": {
+      "sha512": "hfb7fDh2+N0ZSScXmWFBpuvjd/cbAX71RJ39mfEqrwckI2tMSnHdGxB8lMNVj5b7gBIzRFxDySJ7hrbqSHo+tg==",
+      "type": "package",
+      "path": "options/0.31415.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NetCore45/Options.WinRT.XML",
+        "lib/NetCore45/Options.WinRT.dll",
+        "lib/NetCore45/Options.WinRT.pri",
+        "lib/net40-client/FSharp.Core.dll",
+        "lib/net40-client/FSharp.Core.xml",
+        "lib/net40-client/Options.XML",
+        "lib/net40-client/Options.dll",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.xml",
+        "lib/net45/Options.XML",
+        "lib/net45/Options.dll",
+        "lib/windowsphone8/Options.XML",
+        "lib/windowsphone8/Options.dll",
+        "options.0.31415.9.nupkg.sha512",
+        "options.nuspec"
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -451,7 +578,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Extensions.Configuration.Json >= 6.0.0"
+      "MQTTnet >= 3.1.0",
+      "Microsoft.Extensions.Configuration.Json >= 6.0.0",
+      "Options >= 0.31415.9"
     ]
   },
   "packageFolders": {
@@ -462,11 +591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\NetCoreClient.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
       "projectName": "NetCoreClient",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\NetCoreClient.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Drone_2022\\client\\netcoreclient\\NetCoreClient.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Drone_2022\\client\\netcoreclient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -500,9 +629,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MQTTnet": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "Options": {
+            "target": "Package",
+            "version": "[0.31415.9, )"
           }
         },
         "imports": [
@@ -511,7 +648,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -520,20 +658,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "Undefined",
+      "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Documents\\Corso_ITS\\Anno 2\\Protocolli IoT\\Es_drone\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Administrator\\Desktop\\Drone nostro\\Drone_2022\\client\\netcoreclient\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> c519e341f4e28b4889826dae3792b92fe0e7987f
+      "message": "Package 'Options 0.31415.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Options",
+      "targetGraphs": [
+        "net6.0"
+      ]
     }
   ]
 }

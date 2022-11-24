@@ -1,31 +1,33 @@
-using NetCoreClient.ValueObjects;
-using System.Text.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Globalization;
 
 namespace NetCoreClient.Sensors
 {
     class VirtualPositionSensor : IPositionSensorInterface, ISensorInterface
     {
-        private readonly Random Random;
-
-        public VirtualPositionSensor()
-        {
-            Random = new Random();
-        }
-
-        public double Longitude()
-        {
-            return new Longitude(Random.NextDouble()*Random.Next(100)).Value;
-        }
-
-        public double Latitude()
-        {
-            return new Latitude(Random.NextDouble()*Random.Next(100)).Value;
-        }
-
         public string ToJson()
         {
-            Object[] Position = {new Longitude(Random.NextDouble()*Random.Next(100)), new Latitude(Random.NextDouble()*Random.Next(100))};
-            return JsonSerializer.Serialize(Position);
+            return "{\"latitude\": " + GetLatitude() + ",\"longitude\": " + GetLongitude() + "}";
+        }
+
+        public float GetLatitude()
+        {
+            var random = new Random();
+            return (float) random.Next(100);
+        }
+
+        public float GetLongitude()
+        {
+            var random = new Random();
+            return (float)random.Next(100);
+        }
+
+        public string GetSlug()
+        {
+            return "latitude,longitude";
         }
     }
 }
