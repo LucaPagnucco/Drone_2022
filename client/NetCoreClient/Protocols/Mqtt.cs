@@ -42,6 +42,7 @@ namespace NetCoreClient.Protocols
                 .WithTopic(TOPIC_PREFIX + sensor)
                 .WithPayload(data)
                 .WithExactlyOnceQoS()
+                .WithRetainFlag()
                 .Build();
 
             await mqttClient.PublishAsync(message, CancellationToken.None);
