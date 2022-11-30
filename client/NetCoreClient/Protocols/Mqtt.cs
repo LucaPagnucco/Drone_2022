@@ -22,6 +22,12 @@ namespace NetCoreClient.Protocols
             this.endpoint = endpoint;
 
             Connect().GetAwaiter().GetResult();
+
+            // listener che aspetta l'arrivo di un messaggio e lo stampa
+            mqttClient.UseApplicationMessageReceivedHandler(e =>
+            {
+                Console.WriteLine($"Data received: {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
+            });
         }
 
         private async Task<MqttClientConnectResult> Connect()
@@ -42,11 +48,6 @@ namespace NetCoreClient.Protocols
             await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic(TOPIC_PREFIX + topic).Build());
 
             Console.WriteLine("Iscritto al topic: " + TOPIC_PREFIX + topic);
-
-            mqttClient.UseApplicationMessageReceivedHandler(e =>
-            {
-                Console.WriteLine($"Data received: {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
-            });
         }
         
         public async void Send(string data, string sensor)
