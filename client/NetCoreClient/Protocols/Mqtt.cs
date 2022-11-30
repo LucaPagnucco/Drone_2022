@@ -37,15 +37,15 @@ namespace NetCoreClient.Protocols
             return await mqttClient.ConnectAsync(options, CancellationToken.None);
         }
 
-        public async void SubscribeCommands()
+        public async void Subscribe(string topic)
         {
-            await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic(TOPIC_PREFIX + "commands").Build());
+            await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic(TOPIC_PREFIX + topic).Build());
 
-            Console.WriteLine("Iscritto al topic: " + TOPIC_PREFIX + "commands");
+            Console.WriteLine("Iscritto al topic: " + TOPIC_PREFIX + topic);
 
             mqttClient.UseApplicationMessageReceivedHandler(e =>
             {
-                Console.WriteLine($"Data recieved: {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
+                Console.WriteLine($"Data received: {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
             });
         }
         
