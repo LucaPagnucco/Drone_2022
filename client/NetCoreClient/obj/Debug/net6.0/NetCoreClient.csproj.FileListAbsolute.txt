@@ -124,3 +124,4 @@ C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\clie
 C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.csproj.CopyComplete
 C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\NetCoreClient.genruntimeconfig.cache
 C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\obj\Debug\net6.0\ref\NetCoreClient.dll
+C:\Users\Administrator\Documents\Corso_ITS\Anno 2\Protocolli IoT\Drone_2022\client\netcoreclient\bin\Debug\net6.0\Serilog.dll

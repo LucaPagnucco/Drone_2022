@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.IO;
+using System.Text;
 using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Client.Options;
@@ -12,7 +13,7 @@ namespace NetCoreClient.Protocols
 {
     class Mqtt : IProtocolInterface
     {
-        private const string TOPIC_PREFIX = "iot2022test/";
+        private const string TOPIC_PREFIX = "drone_1/";
         private IMqttClient mqttClient;
         private string endpoint;
 
@@ -36,6 +37,18 @@ namespace NetCoreClient.Protocols
             return await mqttClient.ConnectAsync(options, CancellationToken.None);
         }
 
+        public async void SubscribeCommands()
+        {
+            await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic(TOPIC_PREFIX + "commands").Build());
+
+            Console.WriteLine("Iscritto al topic: " + TOPIC_PREFIX + "commands");
+
+            mqttClient.UseApplicationMessageReceivedHandler(e =>
+            {
+                Console.WriteLine($"Data recieved: {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
+            });
+        }
+        
         public async void Send(string data, string sensor)
         {
             var message = new MqttApplicationMessageBuilder()

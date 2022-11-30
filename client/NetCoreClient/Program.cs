@@ -10,6 +10,7 @@ sensors.Add(new VirtualPositionSensor());
 
 // define protocol
 IProtocolInterface protocol = new Mqtt("127.0.0.1");
+protocol.SubscribeCommands();
 
 // send data to server
 while (true)

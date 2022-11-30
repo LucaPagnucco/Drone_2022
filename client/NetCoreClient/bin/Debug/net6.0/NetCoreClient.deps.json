@@ -10,7 +10,8 @@
         "dependencies": {
           "MQTTnet": "3.1.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "Options": "0.31415.9"
+          "Options": "0.31415.9",
+          "Serilog": "2.12.0"
         },
         "runtime": {
           "NetCoreClient.dll": {}
@@ -132,6 +133,14 @@
           }
         }
       },
+      "Serilog/2.12.0": {
+        "runtime": {
+          "lib/net6.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Text.Encodings.Web/6.0.0": {
         "dependencies": {
@@ -221,6 +230,13 @@
       "sha512": "sha512-hfb7fDh2+N0ZSScXmWFBpuvjd/cbAX71RJ39mfEqrwckI2tMSnHdGxB8lMNVj5b7gBIzRFxDySJ7hrbqSHo+tg==",
       "path": "options/0.31415.9",
       "hashPath": "options.0.31415.9.nupkg.sha512"
+    },
+    "Serilog/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
+      "path": "serilog/2.12.0",
+      "hashPath": "serilog.2.12.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
