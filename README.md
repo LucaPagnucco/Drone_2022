@@ -17,7 +17,7 @@ MQTT:
 Il programma si appoggia su un broker esterno "mosquitto" grazie a docker --> COMANDO: "docker run -p 1883:1883 -p 9001:9001 eclipse-mosquitto:1.6".
 Quindi si collega alla macchina stessa con IP "127.0.0.1".
 
-Esistono, al momento, 2 topic: 
+Esistono 2 topic: 
 <ul>
     <li>"/drone_1/<i>sensore</i>" per la pubblicazione dei dati ricavati da un sensore --> il programma pubblica su questo topic;</li>
     <li>"/drone_1/commands" per l'invio dei comandi al drone --> il programma è iscritto a questo topic.</li>
